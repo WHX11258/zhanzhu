@@ -132,7 +132,7 @@ class EpayCore
 $epay_config = array(
     'apiurl' => 'https://pay.whx1.top/',
     'pid'    => 1000,
-    'key'    => 't9n2ZT48Js9VTJj3Tvjq9jgnJ2Xu2V2j'
+    'key'    => ''
 );
 $epay = new EpayCore($epay_config);
 
