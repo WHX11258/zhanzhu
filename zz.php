@@ -240,8 +240,8 @@ elseif($act == 'pay'){
         'pid'         => $epay_config['pid'],
         'type'        => $post['type'],
         'out_trade_no'=> $post['out_trade_no'],
-        'notify_url'  => 'https://femboy.zhminyu.cn/zz.php?act=notify',
-        'return_url'  => 'https://femboy.zhminyu.cn/zz.php?act=return',
+        'notify_url'  => 'https://***/zz.php?act=notify',
+        'return_url'  => 'https://***/zz.php?act=return',
         'name'        => 'product',
         'money'       => sprintf("%.2f", $post['money']),
         'clientip'    => $post['clientip']
